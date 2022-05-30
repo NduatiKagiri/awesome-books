@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  padding: 20px 100px;
+  height: 98vh;
+}
+
+a {
+  cursor: pointer;
+}
+
+header {
+  border: 3px solid #000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 15px 8px 15px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#list-link,
+#add-link {
+  margin-right: 8px;
+  border-right: 3px solid #000;
+  padding-right: 8px;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.time {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 20px;
+  letter-spacing: 2px;
+}
+
+#all-books {
+  border: 4px solid #000;
+  border-radius: 10px;
+  width: 100%;
+}
+
+#all-books tr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#all-books td {
+  padding: 8px;
+}
+
+#form button {
+  border: 2px solid #000;
+  border-radius: 3px;
+  padding: 2px 7px;
+}
+
+#all-books tr td button {
+  border: 2px solid #000;
+  border-radius: 3px;
+  padding: 2px 7px;
+}
+
+#all-books tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#all-books tr:hover {
+  background-color: #ddd;
+}
+
+.form-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 15px 0;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+#author,
+#bookName {
+  border: 2px solid #000;
+  border-radius: 3px;
+  margin-bottom: 8px;
+  width: 340px;
+  height: 25px;
+  padding: 0 15px;
+}
+
+#contact {
+  display: none;
+  margin-top: 20px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+#contact h1 {
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 82%;
+  margin-top: 50px;
+  border: 3px solid  #000;
+  border-radius: 10px;
+  padding: 8px 0 8px 15px;
+}
+
+#list {
+  display: block;
+}
+
+#add-book {
+  display: none;
+}
+
+.clicked {
+  color: #00f;
+  font-size: 21px;
+}
